@@ -9,7 +9,7 @@ class MapController extends Controller {
 
     const MARKERS_NUM = 5; //number of markers to show
     const TERM = 2592000; // coordinates cache storage life (30 days)
-    const APIKEY = 'AIzaSyCuD4ARi7M1DKuSxK7RedS7HLep8BbN90sS';
+    const APIKEY = 'AIzaSyCuD4ARi7M1DKuSxK7RedS7HLep8BbN90s';
 
     public function index() {
         $results = DB::table('country')->orderBy('name')->get();
